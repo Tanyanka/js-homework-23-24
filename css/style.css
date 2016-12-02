@@ -1,0 +1,84 @@
+
+.clear{
+  clear:both;
+}
+body{
+  background-color: #eee;
+}
+.wrapper{
+  min-height: 600px;
+  width: 650px;
+  margin: 50px auto;
+  border: 5px dashed #fff;
+}
+
+.item-list{
+  list-style: none;
+}
+
+.item-list li{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.controlls{
+  height: 20px;
+  width: 210px;
+  margin: 30px auto;
+
+}
+.item-value{
+  margin: auto;
+  margin-left: 19px;
+  height: 12px;
+  width: 125px;
+}
+
+p{
+  padding-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: #e5e;
+}
+.dispaly-item{
+  font-size: 26px;
+  width:370px;
+  overflow: hidden;
+  cursor: pointer;
+  float: left;
+  margin-left: 100px;
+}
+.item-delete{
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  margin-right: 50px;
+}
+.edit{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 26px;
+  margin-left: 115px;
+}
+.item-delete:hover {
+    color: #e5e;
+}
+.item-add {
+    position: relative;
+    background-color: #e5e;
+    height: 40px;
+    border: none;
+}
+.item-add::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -3px;
+    width: 10px;
+    height: 10px;
+    border: 20px solid #e5e;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+}
